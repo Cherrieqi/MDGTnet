@@ -1,0 +1,11 @@
+Training loss logs:
+[001/010] 153.94 sec(s) Train  Loss: 820.890549 
+[002/010] 146.80 sec(s) Train  Loss: 761.751063 
+[003/010] 146.47 sec(s) Train  Loss: 761.610791 
+[004/010] 146.37 sec(s) Train  Loss: 763.613655 
+[005/010] 149.41 sec(s) Train  Loss: 763.669018 
+[006/010] 152.49 sec(s) Train  Loss: 762.053798 
+[007/010] 152.33 sec(s) Train  Loss: 763.367179 
+[008/010] 152.57 sec(s) Train  Loss: 762.100235 
+[009/010] 147.30 sec(s) Train  Loss: 761.806393 
+[010/010] 150.63 sec(s) Train  Loss: 762.560555 
