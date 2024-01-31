@@ -1,6 +1,6 @@
 # MDGTnet
 
-<img src="C:\Users\cherry\Desktop\FIG 1.png" >
+<img src="./logs/MDGTnet.png" >
 
 [Multi-Source Domain Generalization Two-Branch Network for Hyperspectral Image Cross-Domain Classification](https://ieeexplore.ieee.org/document/10410893)
 
@@ -28,36 +28,23 @@ This code is based on **Python 3.10** and **Pytorch 1.12**.
 
 ## Models
 
-**· SD--H13+H18 :** 
+**· SD--H13+H18 :** [model9.pth](https://pan.baidu.com/s/1DOecuJQPklCug4V0RgDh9Q?pwd=1111)
 
-[model9.pth]: https://pan.baidu.com/s/1DOecuJQPklCug4V0RgDh9Q?pwd=1111
-
-**· SD--PU+PC :** 
-
-[model9.pth]: https://pan.baidu.com/s/1Q9HCafos_9zU7pV13siw5A?pwd=1111
+**· SD--PU+PC :** [model9.pth](https://pan.baidu.com/s/1Q9HCafos_9zU7pV13siw5A?pwd=1111)
 
 ## Datasets
 
-[raw]: https://pan.baidu.com/s/1IvzKEQOw7xwVPwUrpOrhxQ?pwd=1111
+**[raw](https://pan.baidu.com/s/1Mt4zGXmfkRKK0VSRtdmFaQ?pwd=1111)  :**  Houston2013 / Houston2018 / PaviaU / PaviaC
 
-**:** Houston2013 / Houston2018 / PaviaU / PaviaC
+**[H13+H18 -- PU/PC](https://pan.baidu.com/s/1VT3ptEaEjLkGETL7TiJD8g?pwd=1111) :**  gen_H13 / gen_H18 / gen_PU / gen_PC
 
-**
-
-[H13+H18 -- PU/PC]: https://pan.baidu.com/s/1DFd5cb3xalw5lcSigS57BQ?pwd=1111
-
- : **gen_H13 / gen_H18 / gen_PU / gen_PC
-
-**
-
-[PU+PC]: https://pan.baidu.com/s/1Q4pFYugFKw1YmAmZ8sDsrg?pwd=1111
-
- :** gen_H13 / gen_H18 / gen_PU / gen_PC
+**[PU+PC](https://pan.baidu.com/s/1Q4pFYugFKw1YmAmZ8sDsrg?pwd=1111 )**  **:**  gen_H13 / gen_H18 / gen_PU / gen_PC
 
 ## Getting start:
 
 ##### · Dataset structure
 
+```
 data/MDGTnet_H1318
 ├── gen_H13
 │   ├── img_norm_all.npy
@@ -65,17 +52,17 @@ data/MDGTnet_H1318
 ├── gen_H18
 │   ├── img_norm_all.npy
 │   └── gt_norm_all.npy
-
 ├── gen_PC
 │   ├── img_norm_all.npy
 │   └── gt_norm_all.npy
-
 └── gen_PU
      ├── img_norm_all.npy
      └── gt_norm_all.npy
+```
 
 
 
+```
 data/MDGTnet_PUPC
 ├── gen_H13
 │   ├── img_norm_all.npy
@@ -83,17 +70,17 @@ data/MDGTnet_PUPC
 ├── gen_H18
 │   ├── img_norm_all.npy
 │   └── gt_norm_all.npy
-
 ├── gen_PC
 │   ├── img_norm_all.npy
 │   └── gt_norm_all.npy
-
 └── gen_PU
      ├── img_norm_all.npy
      └── gt_norm_all.npy
+```
 
 
 
+```
 data/raw
 ├── Houston2013
 │   ├── Houston.mat
@@ -101,14 +88,13 @@ data/raw
 ├── Houston2018
 │   ├── HoustonU.mat
 │   └── HoustonU_gt.mat
-
 ├── PaviaC
 │   ├── pavia.mat
 │   └── pavia_gt.mat
-
 └── PaviaU
      ├── paviaU.mat
      └── paviaU_gt.mat
+```
 
 **NOTE:**
 
