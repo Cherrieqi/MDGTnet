@@ -1,6 +1,6 @@
 # MDGTnet
 
-<img src="./logs/MDGTnet.png" >
+<img src="C:\Users\cherry\Desktop\FIG 1.png" >
 
 [Multi-Source Domain Generalization Two-Branch Network for Hyperspectral Image Cross-Domain Classification](https://ieeexplore.ieee.org/document/10410893)
 
@@ -10,21 +10,21 @@
 
 This code is based on **Python 3.10** and **Pytorch 1.12**.
 
-Installation list:
+*Installation list:*
 
-· pytorch 
+**· pytorch** 
 
-· matplotlib
+**· matplotlib**
 
-· opencv-python
+**· opencv-python**
 
-· scipy
+**· scipy**
 
-· h5py
+**· h5py**
 
-· tqdm
+**· tqdm**
 
-· scikit-learn
+**· scikit-learn**
 
 ## Models
 
@@ -121,6 +121,14 @@ data/raw
 ##### · Test
 
 ​       Run *test_xxxx_com_cls.py*. 
+
+
+
+
+
+
+
+
 
 
 
