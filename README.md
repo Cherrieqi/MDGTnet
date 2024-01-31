@@ -40,7 +40,7 @@ Installation list:
 
 **PU+PC -- H13+H18 :**
 
-## Getting start:
+## Getting start
 
 #### 中文版本
 
