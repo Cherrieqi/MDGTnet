@@ -1,6 +1,6 @@
 # MDGTnet
 
-<img src="C:\Users\qyx\Desktop\FIG 1.png" >
+<img src="./logs/MDGTnet.png" >
 
 [Multi-Source Domain Generalization Two-Branch Network for Hyperspectral Image Cross-Domain Classification](https://ieeexplore.ieee.org/document/10410893)
 
